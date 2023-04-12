@@ -1,0 +1,1077 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title style="font-family: Garamond,Times, sans-serif;">
+     ZAIKA
+    </title>
+    <link rel="shortcut icon" href="data:image/jpeg;base64,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">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <style>
+        body
+        { border-style:double;
+         height:3710px;
+         }
+        .div1 
+        {
+          background-image: url("https://png.pngtree.com/thumb_back/fh260/20170803/pngtree-Food-Menu-Fare-Meal-background-photo-869492.jpg");
+          background-repeat: no-repeat;
+          background-origin: border-box;
+          background-size: cover;
+           height:560px;
+        }
+        .div2
+        {
+          background-image: url("https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Jyothi_Rajesh/Homemade_Canape_Papdi_Chaat.jpg");
+          background-repeat: no-repeat;
+          background-origin: border-box;
+          background-size: cover;
+           height:560px;
+           display:block;
+        }
+        .div3
+        {
+          background-image: url("indian meal.jpg");
+          background-repeat: no-repeat;
+          background-origin: border-box;
+          background-size: cover;
+          height:560px;
+          display:block;
+         
+        }
+        .div4
+        {
+          background-image: url("https://media.istockphoto.com/photos/group-of-south-indian-food-like-masala-dosa-uttapam-idliidly-wadavada-picture-id1024558778?k=6&m=1024558778&s=612x612&w=0&h=u4Gy3npMml_E7mJOw9TDnPgJyqbDHHAx9W-6ka2dxKk=");
+          background-repeat: no-repeat;
+          background-origin: border-box;
+          background-size: cover;
+           height:560px;
+           display:block;
+        }
+        .div5
+        {
+          background-image: url("https://i.pinimg.com/originals/d0/6f/16/d06f16e90760a8f43ae271dfe0ad32a0.jpg");
+          background-repeat: no-repeat;
+          background-origin: border-box;
+          background-size: cover;
+           height:560px;
+           display:block;
+        
+        }
+        .div6
+        {
+          background-image: url("https://www.parc-cafe.co.za/new/wp-content/uploads/2018/03/coffee-and-cake.jpg");
+          background-repeat: no-repeat;
+          background-origin: border-box;
+          background-size: cover;
+           height:560px;
+           display:block;
+           
+        }
+        .bg-text-home
+        { color: white;
+          font-weight: bold;
+          position:absolute;
+           top: 50%;
+           left: 50%;
+          transform: translate(-50%, -50%);
+ 		    }
+        .bg-text-indian-meal
+        { color: white;
+          font-weight: bold;
+          position:absolute;
+          font-family: "Garamond", Times, serif ;
+          font-size: 40px;
+          font-style: oblique;
+           top: 405px;
+           left: 550px;
+          transform: translate(-50%, -50%);
+ 		    }
+          .bg-text-staters
+        { color: white;
+          font-family: "Garamond", Times, serif ;
+          font-weight: bold;
+          position:absolute;
+          font-size: 40px;
+          font-style: oblique;
+          top: 370px;
+          left: 310px;
+          transform: translate(-50%, -50%);
+ 		    }
+          .bg-text-southindian
+        { color: white;
+          font-family: "Garamond", Times, serif ;
+          font-size: 40px;
+          font-style: oblique;
+          font-weight: bold;
+          position:absolute;
+           top: 50%;
+           left: 50%;
+          transform: translate(-50%, -50%);
+ 		    }
+          .bg-text-fastfood
+        { color: white;
+          font-weight: bold;
+          position:absolute;
+          font-family: "Garamond", Times, serif ;
+          font-size: 40px;
+          font-style: oblique;
+           top: 50%;
+           left: 50%;
+          transform: translate(-50%, -50%);
+ 		    }
+          .bg-text-dessert-beverage
+        { color: white;
+          font-weight: bold;
+          position:absolute;
+          font-family: "Garamond", Times, serif ;
+          font-size: 40px;
+          font-style: oblique;
+           top: 50%;
+           left: 50%;
+          transform: translate(-50%, -50%);
+ 		    }
+         .container
+         { position: relative;
+ 		    text-align: center;
+  			color: white;
+			}
+
+      .overlay
+       { height: 100%;
+               width: 0;
+               position: fixed;
+               z-index: 1;
+               top: 0;
+               left: 0;
+                background-color: rgb(0,0,0);
+               background-color: rgba(0,0,0, 0.9);
+               overflow-x: hidden;
+                transition: 0.5s;
+       }
+
+      .overlay-content
+       { position: relative;
+               top: 25%;
+               width: 100%;
+               text-align: center;
+               margin-top: 30px;
+         }
+
+      .overlay a
+        { padding: 8px;
+               text-decoration: none;
+              font-size: 36px;
+              color: #818181;
+              display: block;
+              transition: 0.3s;
+        }
+
+      .overlay a:hover, .overlay a:focus
+       { color: #f1f1f1;
+      }
+
+      .overlay .closebtn 
+     {  position: absolute;
+                top: 20px;
+                right: 45px;
+                font-size: 60px;
+      }
+      .menu
+      { margin: 250px 30px;
+             float:left;
+       }
+     
+      ul
+      {list-style-type: none;
+       margin: 0;
+       padding: 20px;
+       overflow: hidden;
+       background-color: #333;
+       
+       }
+       
+       .a
+       { font-size: medium;
+         float:right;
+       }
+
+       .b
+       {  font-size: 20px;
+         float:left;
+       }
+
+      li
+     { float: left;
+       border-right:1px solid #bbb;
+       }
+
+      li:hover
+       { background-color: #000;
+       }
+      .dropdown .dropbtn 
+       { font-size: inherit;  
+         border: none;
+         display:block;
+         outline: none;
+         color: white;
+         padding: 10px;
+         background-color: inherit;
+         font-family: "Garamond", Times, serif;
+          margin: 0;
+          cursor:pointer;
+         }
+
+      .dropdown-content
+       { display: none;
+        position: absolute;
+        background-color:#333;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+
+      .dropdown-content a 
+      { float: none;
+       color: white;
+       padding: 12px 16px;
+       display: block;
+       text-align: left;
+      }
+
+      .dropdown:hover .dropdown-content 
+      { display: block;
+       cursor:pointer;
+      }
+    .imgz
+    {
+      border-radius: 50%;
+    }
+
+    .time{
+      position: absolute;
+      top:350px;
+      left:120px;
+      font-size: 20px;
+      font-weight: bold;
+      font-family: 'lucida handwriting', cursive;
+      background-color:transparent;
+    }
+    .address
+    {
+      position: absolute;
+      bottom: 40px;
+      right: 300px;
+      font-size: 30px;
+      font-weight: bold;
+      font-family: 'lucida handwriting', cursive;
+      background-color:transparent;
+    }
+    .button 
+     {-webkit-appearance: button;
+       -moz-appearance: button;
+        appearance: button;
+       right: 20px;
+        bottom: 30px;
+        position: absolute;
+          color: rgb(65, 20, 20);
+           text-align: center;
+        font-family: "Times New Roman",serif;
+        font-size: 30px;
+            }
+            .div7
+            {
+                
+             width: 70px;
+             height: 30px;
+             padding: 15px;
+             background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQJfw637DHiJYNRrHUdH_x8FOUj3FSFiDN5w&usqp=CAU");
+             box-shadow: 10px 10px 5px rgb(80, 38, 38);
+            }
+
+            .icon
+{background-image:url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUSExMWFRUXFRUXFRUYFxobFxcVFxUXFxcVFRgYHyggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0NFQ8PGi0dFR0tLS0rLS0rLS0tLS0tLS0tLS0tLS0tLS0tLTctKy03Ny03LS0tNy0tLTIrLSs3Ky0rK//AABEIALcBEwMBIgACEQEDEQH/xAAaAAACAwEBAAAAAAAAAAAAAAACAwABBAUH/8QAOBAAAgEBBAcHAwQBBAMAAAAAAAECAxFRYZEEEhMhQaHwFDFScYGx0VOS4SJiwfGiMkJygkOy4v/EABgBAQEBAQEAAAAAAAAAAAAAAAABAgQD/8QAHBEBAQEBAQADAQAAAAAAAAAAABEBEiECUWEx/9oADAMBAAIRAxEAPwDyCLGWi0x0DydALHew4t/3/YeQt2gH13/kGT66ZIvB8gkFLteJStxNKpvwlOD4xFSExQatv5l6gSgKQKz9RkUsOQaohRoK4lahDiSxj3RwAnGzuKgYu8arLhKniR1cfb4EK0Qi+C5AVqba3iVX88vguVZ9yT9STVuBp6PZG1y73u87ndf/AESUkrLLbnv64lqpJfyJrzb3pcW+O/zx7zUYprsK1IsRtHwTx4e4aq3pr0t9ixOhzoIkKKAWkLH7ZBLSY3tej+BNLi3SC2F7A7RG/k/gjrq/k/gTS4J011YA6SBdRX57vctSV6zEBbJE1Lg41Yq7MNTh32rmZrUL1N35BnTd/NGh1FeuYue/us5gjM6Tv5oCVPEdqu9cwJN9MtSM5YTWHMoqG66vLVZEdPf3ZF7Pq0z4vqlX8wu0K9g2EXkXw9MjpKvC268SyFqOBLMCLdNjX8gpVbeAjZx8KCVGN3MeHpikHGQpaPHHNjI6L5/cx4enRniNVXq0zLQ11JhR0Zbu/wBZMnjXrS6u7u5gSnhzAWiLH72GtDV7+6XyTxfQurg80U5YZsuei3W/cwdg+pMviehbw6yJasfRMYqDLVBghLSufmwXTNOzeGRNmxmkY9mR0vI2KHkR0sC1OWNU7R0KFvD3HbN3exN93L4FIVKkrlm/gHZp/wBpjk8ebJGWP8+5AvsuD5Fx0NXMa5WXfagdd9IXVmK7JFcHk2FqpdyX2sraAy63gTdh9rBlJXrIrV6tYLl1awFzljyAl1uYbn1axcp48yslt4+5C2+rSAN/VeglCXExx0yS7otDFp0vAyTTrG2MI9bxDhZLWtbttt3KyzgJemPwMpaW/BIs035Y2au7cRw63GVaY/pvr0C7U/pPMTS41RgruZdiwM/a39HmRaXP6PMk1bjXGwNWWmJaXN/+HmWtKqfR5lhcdKFl5bUTn9oqfR5kelVPpJeqJF6dNKN5bjG/2OQtKq+BZop6VW8C69RydY6zUcS1CN7zOO9JreFdeofaa3hhz+S8p3jrWQuZHKPCOZyHpVfwwyfyC9Mr+GPXqOTvHVlIXrHPWmV7o9eoE9IrvviuXyXMTfk6arMuppTwyRzI1q1ncuXyLnOs+EeXyOcOnTdfyI6mJzFUrXRyXyDr1cOXyXlOnVTv5FSkurTlurWV3L5AdSt1YOTp1ZSQLmjky2nF+xdtW/2HKdfjp7VF9p6tOS1Uv9iW1L3yJyd66c66d+YGv5nOSqPiSypey8nW/TbKat3la6vZhlCpiU4TExOt+m1tXshz/wBV5BydN7heXrIpJlKBlobs4EXoWqeAWy8swqowxSGKK8SKhGPGSQ6FKHib8k37IihSxNFOk7OHqwVo8eGu/Sz3aDWju7Oy33I1glSlel5EcJcW+RcYNbnZkUou630AvUfmBsMOXyMVVrg8hsavnzHozrRmHDRh8aiDVVYC6ER0ZBbCPStNCksMmMjLrVJVjE6SueSJ2fB2ehv13c315FRlJ8PcXSMDo4ckV2d8PY3NyXDk3/JcZ325Mt0mMC0V9JgvRH1u9zoOornzFzeEuvQXSYwS0fDmLdLA6E6mD69BNR29za9C1NxjdJAaiNFSL42mdGmNC4dWkVPyDlUYpz63CaXBuzAH1Wf4FyAbESjlLHmA54vMXJ4jFFatuHTtG+H9RT88/wAFKaEq28JRYiVcoRe/eQJU2QKJRd3sHqS6sX8Axa8T9dwcEurSKvZ+eZcaK8DfMOOr0jRFKzvM1qERaX+1r0H066uYcYLDIbBYrIlWJCSHwmsAIvreW5vh7MjRsakb+Rf6beOTMr1/HL0SBVNr/dNlhXRjUjc8n8B7rnkzmWT4e6YVKhLi5P7eQhXSi4b/ANLyGa0fC+Xyc+noz4rN/CGw0breyTFaJSXfqv8Ax+QXhHMbTpru1eUg3HjYvVP5FIRBSuWf4GQi8M/wHq/8ft/JSg/25IAZWvc9X7n8A2eS/wC34ClrYZRKVnGSt/6gZ6lviWf4FWSvT68jW6dvH/1F1KPX6fktSM0n/wAV6sDWs4rNhVItX/4/IqSfVnyaZVOT4NZip62Ayx4vL3tJqStSsfL5FxJrNJYIF0lcapRafH7V8i5p4faWpGWVHDmLlRdxrfpl+QG8FkxSMkoftF7M2ua42cxU664chUmMygQKU/PL8CKkurGVndhlqLMzkyFidN8ad27rEYo2GVaQ7pZBx0mz/bLr1MTW7jZFYe4VnpmY+1Pwyy/JHpb8M8hNa6xsiurRsE+v7OdHTH4Z5IPt78EuRJp1joqSK2hz1pT8Enl8hx0p/SlyEXrHRhJ32Doyd5y1pcvBLkEtMl4HyEOsdVVWEqzvOT2yX03mWtNn9J/chyvWOuqrv9wozdu9nH7dP6L+5BLTp/Sf3IcnWOw6pFO04/bJ/R/yQa02p9GzG1fBOTrHWcmumRzbOWtKqfT5klpFThT5lh06TbK/Uc1abV8FnqV2yr4FmvkQ6x0034glUx5nK7VV8C5fIvtNXwRzXyOTp2JSM8njzOe9Iq2blHNfIKr1XuSjbc2OU7dHv45lTb4M5dStWXGnfexbqVXY9aG/z5l5OnSlLEVJ28TCpVXxhzKqKrZbbHkInTckrwJyRzm6t8QXCrfHNFidfjXOp5iZVOrTPKnO/wBgXCd65FiUyUrS6qViEypzwzRTc8CxmnKdm6zkiCHKX7eZYiVoVNFuKAU8HkW6mDyM+tXBxj0i3FdMDXd0sito/C+Qi0zURNVXFJSu9hkYu3+GBSiHEJQXTDjFXPNkqgj5FpYDYww5/kvZ4CrAWeZaWHMLZ4F7IopeRLMCaiDjTuYA2YBJBqmwlBkIBBxQSpu8tUyVoGr1aU4obqEivMULUV0itkPSeJahLEUjK6DXDkTZWb+807KQEoMlIyVEuK+TMmt69TY9Ddv+q218f4JLQG99qLm4m5rLTjaxtg+NBq624GpSlh5k3SFKkBOKDlTd4MqUr+aAGxYlOKI6TvIqOJUA4IXKngaXTx5oHZotSMuq8CDnTIWpF6oSgBYriehFMUerSKPVqATV3Im1VzyAYovDNB/quQh1I3IKNW6IDUpXJBbOWGTFuq7P9L5FQm7uSf8AJFaFCV8V15hxp/vRng5cLLfIbZVW/wDTZ5BTEv3N+gxwd/Mza1TirVg/kXVquziur1uEK2Rli8hsWr1kYKVeTVkVb5v+y5TqXxXo38CFdBWYDLVhkzlx2nCcft/+hilU8cft/JItb21hkynZcsjBZPxr7fyTVl419v5LCugvQmrjHMwuE+5zX2/kpqdlmut/DVRIV0PWPXqXNpK39Lw6ZzZUanj5IpU59yq/4oQrqua/aA6qvs8lwOfKhV+ovtFSp1fFF+n5Ew611Nqv7XwInU6s+DnSVVcY5P5FudT9rzReU35N8qkONvMtVo8G8n8HP21S6Ob+AozqPhHmxynTZKqvFZ6fgBzt4pmCrUlx1X6Nc7SKs/C87RydNdrvWRbcukZlpErvYF1pY8hErU5y6RN9/JfBic5vj7B6lTxdejEK1arf+72+CGRqd65lCFCqS4rr0GKkn3W+gntLuI9IdvczU1Lh+yfdbJFqlizO9IwZb0h+FkmlxpVLEuFF3vNmWOkO58gu1O55ITS417KV7zLhB38zD2l3PL8kelO5vITVuOjZZZa+Y11Fcu45XaP2vl8h9pfhay+RydY1Rr2uxbsB0HbxXr82nKhUsduq+XyO7Q/C818jcM+TpJeXoRS4HOVd+B5r5LVeXgea+Scr0327vItJPufL8mBVpeB5r5Jtp+B5osK6SW/gDJo5+2n4XmibaXh/y/AhW1xQUIq05+1n4ef4LU53L7vwIV09VXInC05sK0+5Jfc/giqVLlm/gkOnSVTEGUsWc3bTujm/grXndHr0EOm2dl/MS4LpmaUp3R5g68v28yxK0yjYMhVS/oxOpPDmC6s71z+RCtclFu0K3dYvZmDaTvWX5Kc5XrL8l5Tpqkt/cWosya071l+SOpPxLIRK2bN9+4F23IxuU/FyKcp+JiFbdWXhRDFZLxciCFP1LgoR63ksjeioJY5kUSiU4q/0C/TjmTUj0wB2YMovD1GbKPerUHGmr2KRm32rgFWaVljbyHbGN5c6CfEUmk03bh5lz7uAboXMvsrfEtJrPCLNsIeQjss8AlTqd1qJu1c8HOy8lqvYPZ54F6s+7+ADT8w0hTpzwIoT/bkFOcS9mDGrJcMosJaZf7Mnp4B0itUb2uN5aqxfc+vUVfCbCvUfuFzpdbwgLXx/gFxvayLSsvInhmioGUEU4LrcMad1noC1hyAVs1j16F7LH2Ck0v6CjZdYKQCoYkejY8hy1b+Zf6b+ZKsZ+z3F7B3M0RS4Sa9SSi7xUjI4LyKUUat+G4CVJ38/wWkISwINdF9MhKQlW+EbFvu1TNBsak7ypmmWO4lj77FkSKxGRi7yKS5vhFAOcvCalB9IGcd9gpCHW4apI11c8x+yT77ClSVxbhNBGoseRbS8g+zrAOOj4kpNDTq4jo1VeVGiNVPyI0XtleWpp9Nl6u8uVl4AwnhyG62ADSvFy63gFq4PP8hJ8NV+rQpSCVTEAp03Z3WAxjZZ1/AUmuDeZW4A9YqbeAtyXmAnxsZQyC328S5FKp+32JrK72CKVtveBLzD11cVrq5ACrPMmtiSVX9qF7TBIBylZxQDrO3gVr4Lr0FSiu+z2EN09y8iN4LIza6uRUq2AiVosIpeeZm2iK1/QsStKqL92ZRm1iCLVJq5FqpgQhWRRmxsX5FkJq4ZrE1yiGWhKorusgXVfDcQhQD0nq0DaWkIWM1e2IqjIQsKvaMCVbeQhMVFMLa48iyFiVNviTaW8WQghUb8y1PzIQiiUvMFz88yEArWKUyyAU5rq0p1SELEoNZYEtwIQsEcurCnMohEDJAO0ohcTUtCsIQaYpIhCAf/2Q==");
+height:330px;
+width: 1234px;
+top: 3370px;
+position:absolute;
+
+padding:5px;
+}
+.fa {
+  padding: 10px 10px 10px 10px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+ 
+ 
+}
+
+.fa:hover {
+    opacity: 0.7;
+    
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  float:right;
+  margin: 4px 19px;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  float:right;
+  margin: 4px 19px;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+  float:right;
+  margin: 4px 19px;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  float:right;
+  margin: 4px 19px;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+  float:right;
+  margin: 4px 19px;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+  float:right;
+  margin: 6px 19px;
+}
+.phone
+{
+  left:50px;
+  margin:1px;
+}
+
+
+.flip-card {
+  background-color: transparent;
+  width: 170px;
+  height: 60px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 170px;
+  height: 60px;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: purple;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 170px;
+  height: 60px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-color: black;
+  color:black;
+}
+
+.flip-card-front {
+  background-color: transparent;
+  color: black;
+  height:52px;
+  width:170px;
+}
+
+.flip-card-back {
+  background-color:transparent;
+  color: white;
+  font-family: "lucida handwriting",cursive;
+  font-size:9px;
+  transform: rotateY(180deg);
+}
+.chip {
+  display: inline-block;
+  padding: 0 25px;
+  height: 50px;
+  font-size: 20px;
+  line-height: 20px;
+  border-radius: 25px;
+  background-color: red;
+}
+
+.chip img {
+  float: left;
+  margin: 0 10px 0 -25px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.place1{position:absolute;
+        left:60px;
+        bottom:30px;}
+.place2{position:absolute;
+		left:310px;
+        bottom:30px;}
+        .place3{position:absolute;
+		left:560px;
+        bottom:30px;}
+        .place4{position:absolute;
+		left:810px;
+        bottom:30px;}
+    
+.lowericon{
+  height: 161px;
+    width: 266px;
+    position: absolute;
+    bottom: 130px;
+    left: 396px;
+}
+.checked{ color:orange;}
+.buttonemogi1{
+background-color:transparent;
+border:none;
+position: absolute;
+bottom: 35px;
+left: 1050px;
+color: white;}
+
+.buttonemogi1:hover
+{ color:red;
+  position: absolute;
+bottom: 35px;
+left: 1050px
+}
+.buttonemogi2{
+background-color:transparent;
+border:none;
+position: absolute;
+bottom: 35px;
+left: 1070px;
+color: white;}
+
+.buttonemogi2:hover
+{ color:orange;
+  position: absolute;
+bottom: 35px;
+left: 1070px;
+}
+.buttonemogi3{
+background-color:transparent;
+border:none;
+position: absolute;
+bottom: 35px;
+left: 1090px;
+color: white;}
+
+.buttonemogi3:hover
+{ color:rgb(255, 238, 0);
+  position: absolute;
+bottom: 35px;
+left: 1090px;
+}
+.buttonemogi4{
+background-color:transparent;
+border:none;
+position: absolute;
+bottom: 35px;
+left: 1110px;
+color: white;}
+
+.buttonemogi4:hover
+{ color:rgba(76, 132, 236, 0.877);
+  position: absolute;
+bottom: 35px;
+left: 1110px;
+}
+.buttonemogi5{
+background-color:transparent;
+border:none;
+position: absolute;
+bottom: 35px;
+left: 1130px;
+color: white;}
+
+.buttonemogi5:hover
+{ color:rgb(63, 236, 63);
+}
+.emogiimg
+{
+    position: absolute;
+    bottom: 65px;
+    left:1053px;
+}
+.feedback
+{  cursor: pointer;
+  position: absolute;
+    bottom: 200px;
+    left:1048px;
+    color: aliceblue;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.emogidown{
+  padding-left: 0px;
+    width: 13px !important;
+}
+     </style>
+ </head>
+ <body>
+   <div id="M">
+   <div class="container">
+        <div class="div1">
+          <ul class="a">
+            <li><a>
+              <div class="dropdown">
+              <a class="dropbtn"  href="#M1">STARTER</a>
+              <div class="dropdown-content">
+                 <a>INDIAN</a>
+                 <a>CONTINENTAL</a>
+                 <a>CHINESE</a>
+                 </div>
+                </div>
+                </a>
+            </li>
+             
+             
+             <li>
+               <div class="dropdown">
+              <a class="dropbtn" href="#M2">INDIAN MEAL</a>
+              <div class="dropdown-content">
+                 <a>VEGETABLE</a>
+                 <a>CURRY DISHES</a>
+                 <a>NON-VEGITARIAN</a>
+                 <a>ROTI/BIRYANI</a>
+                 </div>
+                </div>
+               </li>
+                
+                
+             <li><div class="dropdown">
+              <a class="dropbtn" href="#M3">SOUTH INDIAN</a>
+              <div class="dropdown-content">
+                 <a>DOSA</a>
+                 <a>UTTAPAM</a>
+                 <a>IDLI</a>
+                 <a>SAMBHAR/CHUTNEY</a>
+                 </div>
+                </div></li>
+                
+                
+             <li><div class="dropdown">
+              <a class="dropbtn" href="#M4" >FAST FOOD</a>
+              <div class="dropdown-content">
+                 <a>INDIAN</a>
+                 <a>SANDWITCH</a>
+                 <a>PASTA/BURGER</a>
+                 <a>PIZZA</a>
+                 </div>
+                </div></li>
+                
+                
+             <li><div class="dropdown">
+              <a class="dropbtn" href="#M5">DESERTS AND BEVERAGES </a>
+              <div class="dropdown-content">
+                 <a>INDIAN DESSERTS</a>
+                 <a>CAKES/PIE</a>
+                 <a>DRINKS</a>
+                 </div>
+                </div></li>
+         </ul>
+           
+            <div class="menu">
+              <span style="font-size:40px;cursor:pointer;" onclick="openNav()">&#9776; </span>
+            </div>
+        </div>
+           <div id="myNav" class="overlay">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <div class="overlay-content">
+                <a href="C:\Users\pkusu\OneDrive\Desktop\Zaika-menu.html">MENU</a>
+                <a href="C:\Users\pkusu\OneDrive\Desktop\Zaika-Booking.html">RESERVATION</a>
+                <a href="C:\Users\pkusu\OneDrive\Desktop\Zaika-online-order.html">HOME DELIVERY</a>
+                <a href="C:\Users\pkusu\OneDrive\Desktop\Zaika-places-to-visit.html">PLACES TO VISIT NEARBY</a>
+              </div>
+            </div>
+            
+            <div class="time">OPEN: 8:00am TO 11:00pm </div>
+            <div class="address">Zaika restaurant , civil lines, roorkee </div>
+         <div class="bg-text-home">
+          <img src="http://3.bp.blogspot.com/_FUnZH9qQ6Mg/TUUFhqiBfcI/AAAAAAAAAHQ/ElBLPWCdOmQ/s1600/zaika+restaurant.jpg"  alt="logo" height="250px" width="350px" class="imgz">
+        </div>
+    </div>
+   </div>
+  
+  
+   <div id="M1">
+     <div class="container">
+         <div class="div2">
+         
+         <ul class="b">
+          <li><a>
+            <div class="dropdown">
+            <a class="dropbtn" href="zaika-menu.html#mind" >INDIAN</a>
+            <div class="dropdown-content">
+               <a>DAHI PAPDI CHAAT</a>
+               <a>DHOKLA</a>
+               <a>SAMOSA</a>
+               <a>KATHI ROLL</a>
+               <a>VEG SPRING ROLL</a>
+               <a>PANEER PAKORA</a>
+               <a>PANEER TIKKA </a>
+               <a>BREAD PAKORA</a>
+             </div>
+           </div>
+           </a>
+         </li>
+           
+           
+         <li>
+             <div class="dropdown">
+            <a class="dropbtn" href="zaika-menu.html#mcon" >CONTINENTAL</a>
+            <div class="dropdown-content">
+               <a>CALAMARI RINGS</a>
+               <a>PANEER STEAK</a>
+               <a>EAST-WEST SPRING ROLL</a>
+               <a>LEMONGRASS</a>
+               <a>GLAZED HAM</a>
+               
+               </div>
+              </div>
+             </li>
+              
+              
+           <li><div class="dropdown">
+            <a class="dropbtn" href="zaika-menu.html#mcon">CHINESE</a>
+            <div class="dropdown-content">
+               <a>NOODLES</a>
+               <a>CHICKEN BALLS</a>
+               <a>SPRING ROLL</a>
+               <a>DEEP FRIED WANTONS</a>
+               </div>
+              </div></li>
+              
+              
+           
+       </ul>
+         
+       </div>
+
+       <div class="bg-text-staters">
+          <h1>STARTERS</h1>
+       </div>
+        
+       <a href="restaurant.html" class="button" ><div class="div7">TOP</div></a>
+      
+      </div>
+    </div>
+
+  <div id="M2">
+   <div class="container">
+     <div class="div3"><ul class="b">
+      <li><a>
+        <div class="dropdown">
+        <a class="dropbtn" href="zaika-menu.html#mveg">VEGETABLE</a>
+        <div class="dropdown-content">
+           <a>GOBHI MANCHURIAN</a>
+           <a>KEDAI MASHROOM</a>
+           <a>BHARWA BHINDI</a>
+           <a>STUFFED CAPSICUM</a>
+           <a>BAINGAN BHARTA</a>
+           <a>ALOO GOBHI</a>
+           <a>CHILLI BABY CORN </a>
+           <a>KAJU KORMA</a>
+           </div>
+          </div>
+          </a>
+      </li>
+       
+       
+       <li>
+         <div class="dropdown">
+        <a class="dropbtn" href="zaika-menu.html#mcd" >CURRY DISHES</a>
+        <div class="dropdown-content">
+           <a>CHOLE BHATURE</a>
+           <a>PINDI CHANA</a>
+           <a>KADHI</a>
+           <a>SHAHI PANEER</a>
+           <a>PANEER BUTTER MASALA</a>
+           <a>RAJMA</a>
+           <a>MALAI KOFTA</a>
+           <a>SARSO KA SAAG</a>
+           <a>NAVRATAN KORMA</a>
+           </div>
+          </div>
+         </li>
+          
+          
+       <li><div class="dropdown">
+        <a class="dropbtn" href="zaika-menu.html#mnveg" >NON-VEGITARIAN</a>
+        <div class="dropdown-content">
+           <a>CHICKEN MASALA</a>
+           <a>BUTTER CHICKEN</a>
+           <a>TANDOORI CHICKEN</a>
+           <a>AMRITSARI FISH</a>
+           <a>EGG BUTTER MASALA</a>
+           <a>PRAWN MASALA</a>
+           
+           </div>
+          </div></li>
+
+          <li><div class="dropdown">
+            <a class="dropbtn" href="zaika-menu.html#mrb" >ROTI/BIRYANI</a>
+            <div class="dropdown-content">
+              <a>ROTI</a>
+              <a>NAAN</a>
+              <a>BUTTOR NAAN</a>
+              <a>STUFFED NAAN</a>
+              <a>HYDRABADI BIRYANI</a>
+              <a>HANDI BIRYANI</a>
+              <a>VEG BIRYANI</a>
+              <a>SATRANI BIRYANI</a>
+              
+               </div>
+              </div></li>
+          
+          
+       
+   </ul>
+     
+
+     </div>
+
+         
+         <div class="bg-text-indian-meal"><h2>INDIAN MEAL</h2>
+         </div>
+           
+       <a href="restaurant.html" class="button" ><div class="div7">TOP</div></a>
+      
+       
+      </div>
+   </div>
+  
+  <div id="M3">
+  <div class="container">
+     <div class="div4">
+
+      <ul class="b">
+        <li><a>
+          <div class="dropdown">
+          <a class="dropbtn" href="zaika-menu.html#msid" >DOSA</a>
+          <div class="dropdown-content">
+             <a>PAPER DOSA</a>
+             <a>MASALA DOSA</a>
+             <a>RAVA MASALA DOSA</a>
+             <a>MOONG DAAL DOSA</a>
+             <a>NEER DOSA</a>
+             <a>COCONUT DOSA</a>
+             
+           </div>
+         </div>
+         </a>
+       </li>
+         
+         
+       <li>
+           <div class="dropdown">
+          <a class="dropbtn" href="zaika-menu.html#siu">UTTAPAM</a>
+          <div class="dropdown-content">
+             <a>ONION UTTAPAM</a>
+             <a>ONION TOMATO UTTAPAM</a>
+             <a>RAVA UTTAPAM</a>
+             <a>BREAD UTTAPAM</a>
+             <a>MIX VEG UTTAPAM</a>
+             <a>BANANA UTTAPAM</a>
+             </div>
+            </div>
+           </li>
+            
+            
+         <li><div class="dropdown">
+          <a class="dropbtn" href="zaika-menu.html#idli">IDLI</a>
+          <div class="dropdown-content">
+             <a>VEGETABLE IDLI</a>
+             <a>STUFFED IDLI</a>
+             <a>RAVA IDLI</a>
+             <a>RICE AND MOONG DAL</a>
+             <a>PEPPER IDLI</a>
+             <a>OATS IDLI</a>
+             </div>
+            </div></li>
+
+            <li><div class="dropdown">
+          <a class="dropbtn" href="zaika-menu.html#siu">SAMBHAR/CHUTNEY</a>
+          <div class="dropdown-content">
+             <a>KEERAI SAMBHAR</a>
+             <a>MIX VEG SAMBHAR</a>
+             <a>COCONUT CHUTNEY</a>
+             <a>TOMATO ONION CHUTNEY</a>
+             <a>COCONUT CORIANDER CHUTNEY</a>
+            
+             </div>
+            </div></li>
+            
+         
+     </ul>
+     </div>
+     <div class="bg-text-southindian"><h1>SOUTH INDIAN</h1></div>
+       
+     <a href="restaurant.html" class="button" ><div class="div7">TOP</div></a>
+      
+  </div>
+  </div>
+
+  <div id="M4">
+   <div class="container">
+      <div class="div5">
+        <ul class="b">
+          <li><a>
+            <div class="dropdown">
+            <a class="dropbtn" href="zaika-menu.html#ffi">INDIAN</a>
+            <div class="dropdown-content">
+               <a>CHAAT</a>
+               <a>PANI PURI</a>
+               <a>VADA PAV</a>
+               <a>NOODLES</a>
+               <a>SAMOSA</a>
+               <a>BREAD PAKORA</a>
+               
+             </div>
+           </div>
+           </a>
+         </li>
+           
+           
+         <li>
+             <div class="dropdown">
+            <a class="dropbtn" href="zaika-menu.html#ffs">SANDWITCH</a>
+            <div class="dropdown-content">
+               <a>CHEESE SANDWITCH</a>
+               <a>GRILLED SANDWITCH</a>
+               <a>CHEESE GRILLED SANDWITCH</a>
+               <a>VEG SANDWITCH</a>
+               <a>CHICKEN SANDWITCH</a>
+               <a>EGG SANDWITCH</a>
+               </div>
+              </div>
+             </li>
+              
+              
+           <li><div class="dropdown">
+            <a class="dropbtn" href="zaika-menu.html#ffs">PASTA/BURGER</a>
+            <div class="dropdown-content">
+               <a>BECHAMID SAUSE PASTA</a>
+               <a>MARINA SAUSE PASTA</a>
+               <a>CHEESE PASTA</a>
+               <a>VEG BURGER</a>
+               <a>CHEESE VEG BURGER </a>
+               <a>GRILLED BURGER</a>
+               </div>
+              </div></li>
+  
+              <li><div class="dropdown">
+            <a class="dropbtn" href="zaika-menu.html#piza">PIZZA</a>
+            <div class="dropdown-content">
+               <a>CHEESE AND CORN </a>
+               <a>MARGHERETA</a>
+               <a>FARM HOUSE</a>
+               <a>PEPPY PANEER</a>
+               <a>DELUXE VEGGIE</a>
+              
+               </div>
+              </div></li>
+              
+           
+       </ul>
+      </div>
+      
+      <div class="bg-text-fastfood">
+        <h1>FAST FOOD</h1></div>
+        
+      <a href="restaurant.html" class="button" ><div class="div7">TOP</div></a>
+      
+   </div>
+   </div>
+
+  <div id="M5">
+    <div class="container">
+    <div class="div6">
+      <ul class="b">
+        <li><a>
+          <div class="dropdown">
+          <a class="dropbtn" href="zaika-menu.html#desrt" >DESSERTS</a>
+          <div class="dropdown-content">
+             <a>GULAB JAMUN</a>
+             <a>GAJAR HALWA</a>
+             <a>SANDESH</a>
+             <a>KAJU KATLI</a>
+             <a>SHRIKHAND</a>
+             
+           </div>
+         </div>
+         </a>
+       </li>
+         
+         
+       <li>
+           <div class="dropdown">
+          <a class="dropbtn" href="zaika-menu.html#bev" >BEVERAGES</a>
+          <div class="dropdown-content">
+             <a>SUGARCANE JUICE</a>
+             <a>JAL-JEERA</a>
+             <a>SHIKANJI</a>
+             <a>AAM PANNA</a>
+             <a>BADAM MILK</a>
+             
+             </div>
+            </div>
+           </li>
+            
+           <li>
+            <div class="dropdown">
+           <a class="dropbtn" href="zaika-menu.html#bev">CAKES AND PIE</a>
+           <div class="dropdown-content">
+              <a>APPLE PIE</a>
+              <a>CHOCOLATE BALL</a>
+              <a>CHERRY PIE</a>
+              <a>CINNAMON ROLL</a>
+              <a>BLACK FOREST PASTRY </a>
+              <a>MACARON</a>
+              
+              </div>
+             </div>
+            </li>
+     </ul>
+    </div>
+    <div class="bg-text-dessert-beverage"><h1>DESSERT AND BEVERAGES</h1></div>
+      
+    <a href="restaurant.html" class="button" ><div class="div7">TOP</div></a>
+      
+    </div>
+  </div>
+</div>
+
+<div class="icon">
+  <span style="font-size: 30px;color:white;">&emsp;&emsp;&emsp;&emsp;CONTACT US&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span style="font-size: 30px;color:white;">FOLLOW US</span><br>
+    <span style="font-size: 20px;">&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;
+      <i class="phone"><i class="fa fa-phone" style="font-size:20px"></i></i>0114XXXXXX &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</span>
+    <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+    <a href="https://twitter.com/login?lang=en-gb" target="_blank" class="fa fa-twitter"></a>
+    <a href="https://www.google.com/" target="_blank" class="fa fa-google"></a>
+    <a href="https://in.linkedin.com/" target="_blank" class="fa fa-linkedin"></a>
+    <a href="https://www.youtube.com/" target="_blank" class="fa fa-youtube"></a>
+    <a href="https://www.instagram.com/" target="_blank" class="fa fa-instagram"></a>
+    <br>
+    <span style="font-size: 20px;"> &emsp;&emsp;&emsp;&emsp;&ensp;&ensp;<img src="https://www.pngjoy.com/pngm/143/2879931_email-logo-png-transparent-gmail-icon-png-png.png" height="15px" width="25px">&ensp;zaika1806@gmail.com</span>
+   </span><span><img class="lowericon"src="http://3.bp.blogspot.com/_FUnZH9qQ6Mg/TUUFhqiBfcI/AAAAAAAAAHQ/ElBLPWCdOmQ/s1600/zaika+restaurant.jpg"  ></span>
+    <br>
+    <div class="place2">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+          
+           <div class="chip">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJZ3QHqE1UyVRSd5PSgStxOUlq3gd4MLZCJUxMXQZmXUNNR4v9l0BsgvXlBaVES8nbdCg&usqp=CAU" alt="Person" width="96" height="96">
+        Priyanshi Pal
+      </div>
+          </div>
+          <div class="flip-card-back">
+            <h1>9917XXXXXX<br>priya_123@gmail.com</h1>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="place1">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+          
+           <div class="chip">
+        <img src="https://i.pinimg.com/originals/d7/25/1e/d7251e692ccbbcdad3a8a9d3afeaf8e1.jpg" alt="Person" width="96" height="96">
+        Shivam Pal
+      </div>
+          </div>
+          <div class="flip-card-back">
+            <h1>9924XXXXXX<br>shiv_456@gmail.com</h1>
+          </div>
+        </div>
+      </div>
+      </div>
+      
+      <div class="place3">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+          
+           <div class="chip">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNP8xE_NSdPGUb-4ZWdqU6_8pJwQ9hypbcjoIV1I5nOOKOlhc-ich_mQx7mBo47jRapjg&usqp=CAU" alt="Person" width="96" height="96">
+        Kusum lata
+      </div>
+          </div>
+          <div class="flip-card-back">
+            <h1>9952XXXXXX<br>kusum_789@gmail.com</h1>
+          </div>
+        </div>
+      </div>
+      </div>
+    <div>
+      <div class="place4">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+            
+             <div class="chip">
+          <img src="https://www.pngitem.com/pimgs/m/537-5372558_flat-man-icon-png-transparent-png.png" alt="Person" width="96" height="96">
+          Pramod Kumar
+        </div>
+            </div>
+            <div class="flip-card-back">
+              <h1>9952XXXXXX<br>pramod_147@gmail.com</h1>
+            </div>
+          </div>
+        </div>
+        </div>
+      <div>
+      <img id="myImage" class="emogiimg"src="https://cdn.shopify.com/s/files/1/1061/1924/products/Emoji_Icon_-_Thinking_large.png?v=1571606093" style="width:100px;height: 100px;">
+      <a class="feedback" href="http://localhost/zaika-restaurant/phptry.php" target="_blank">FEEDBACK</a>
+<button class="buttonemogi1" onclick="document.getElementById('myImage').src='https://cdn.shopify.com/s/files/1/1061/1924/products/Crying_Emoji_Icon_2_1024x1024.png?v=1571606091' " ><span class="fa fa-star emogidown"></span></buttonemogi>
+
+<button class="buttonemogi2" onclick="document.getElementById('myImage').src='https://cdn.shopify.com/s/files/1/1061/1924/products/5_large.png?v=1571606116'"><span class="fa fa-star emogidown"></span></buttonemogi>
+<button class="buttonemogi3" onclick="document.getElementById('myImage').src='https://i.pinimg.com/originals/86/46/58/8646585c41228ddbd44501c612d3a250.png'"><span class="fa fa-star emogidown"></span></buttonemogi>
+<button class="buttonemogi4" onclick="document.getElementById('myImage').src='https://cdn.shopify.com/s/files/1/1061/1924/products/Smiling_Face_Emoji_large.png?v=1571606036'"><span class="fa fa-star emogidown"></span></buttonemogi>
+<button class="buttonemogi5" onclick="document.getElementById('myImage').src='https://cdn.shopify.com/s/files/1/1061/1924/products/17_1024x1024.png?v=1571606116'"><span class="fa fa-star emogidown" "></span></buttonemogi>    
+
+ 
+    
+<script>
+    function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+    
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+    }
+
+   
+     
+    
+    </script>
+</body>
+</html>
